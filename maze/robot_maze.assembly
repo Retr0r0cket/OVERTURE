@@ -1,0 +1,24 @@
+# Forward
+1
+reg0_to_out
+
+# Try left
+0
+reg0_to_out
+reg0_to_out
+
+# Wall check
+2
+reg0_to_out
+in_to_reg1
+1
+reg0_to_reg2
+sub
+5
+equals_0
+
+4
+reg0_to_out
+
+1
+always

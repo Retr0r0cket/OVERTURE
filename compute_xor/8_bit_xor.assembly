@@ -1,0 +1,23 @@
+# Copy values
+in_to_reg1
+in_to_reg2
+reg2_to_reg5
+
+# NAND both, export to reg 0
+nand
+reg3_to_reg0
+
+# Nand reg 1 w/ reg0 val
+reg0_to_reg2
+nand
+reg3_to_reg4
+
+# nand reg 2 w/ reg0 val
+reg5_to_reg1
+nand
+
+# nand combined regs
+reg3_to_reg2
+reg4_to_reg1
+nand
+reg3_to_out

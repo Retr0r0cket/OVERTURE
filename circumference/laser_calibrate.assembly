@@ -1,0 +1,23 @@
+# SETUP
+in_to_reg4
+5
+reg0_to_reg5
+
+# LOOP
+# addition
+in_to_reg1
+reg4_to_reg2
+add
+reg3_to_reg4
+# sub for loop counter
+reg5_to_reg1
+1
+reg0_to_reg2
+sub
+reg3_to_reg5
+# eval loop
+3
+not_equal_0
+
+# Export val
+reg4_to_out

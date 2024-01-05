@@ -1,0 +1,10 @@
+# Iter and loop start
+1 # to 0
+reg3_to_out # Makes it easier bc
+# start w/ 0
+
+# Add
+reg0_to_reg1
+reg3_to_reg2
+add
+always

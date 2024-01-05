@@ -1,0 +1,14 @@
+# Fire 23
+5
+reg0_to_reg5
+# Loop setup
+23
+reg0_to_reg3
+1
+reg0_to_reg2
+7
+# LOOP
+reg5_to_out
+reg3_to_reg1
+sub
+not_equal_0
